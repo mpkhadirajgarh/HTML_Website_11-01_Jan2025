@@ -1,0 +1,35 @@
+h1 {
+    color: darkgreen;
+}
+
+#para1{
+
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+
+}
+
+/* Border Short hand */
+
+#para2 { 
+
+border: 2px solid red;
+
+}
+
+.paragraph {
+
+    margin-top: 10px;
+}
+
+#para3 {
+
+    border: 3px dashed darkgreen;
+}
+
+#para4 {
+    border-width: 5px;
+    border-style: solid dashed double dotted;
+    color: blueviolet;
+}
