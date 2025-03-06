@@ -1,0 +1,32 @@
+h1 {
+
+    color: orangered;
+    
+}
+
+#para1{
+text-align: left;
+text-decoration: underline;
+text-transform: capitalize;
+}
+
+#para2{
+    text-align: right;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+#para3 {
+
+    text-align: center;
+}
+
+#para4 {
+
+    text-align: justify;
+    text-decoration: line-through;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-transform: none;
+    
+}
