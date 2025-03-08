@@ -1,0 +1,20 @@
+.nav-bar ul li a {
+
+text-decoration: none;
+color: red;
+background-color: yellowgreen;
+font-size: 20px;
+}
+
+.nav-bar ul li {
+
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+}
+
+.nav-bar ul li a:hover {
+
+    color: aliceblue;
+    background-color: navy;
+}
