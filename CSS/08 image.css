@@ -1,0 +1,28 @@
+#img1 {
+
+    border: 5px solid red;
+}
+
+#img2 {
+
+    border: 5px dotted blue;
+}
+
+#img3 {
+
+    border: 5px double darkred;
+}
+
+#para1 {
+
+    background-image: url(../HTML/images/nature2.jpg);
+    color: red;
+    border-style: dashed double solid dotted;
+    border-color: brown;
+    border-width: 10px;
+}
+
+body {
+
+    background-color: aquamarine;
+}
