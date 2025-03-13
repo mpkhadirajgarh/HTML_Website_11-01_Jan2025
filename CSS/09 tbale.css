@@ -1,0 +1,39 @@
+* {
+
+    padding:0px;
+    margin: 0px;
+}
+
+
+
+caption {
+
+    font-weight: 900;
+    font-size: 25px;
+    color: red;
+}
+
+table {
+
+    border: 2px solid red;
+    margin: 20px;
+    padding: 10px;
+
+    border-collapse: collapse;
+    background-color: aqua;
+    
+}
+
+thead th {
+
+    border: 2px solid purple;
+    padding: 2px;
+}
+
+tbody td {
+
+    border: 2px solid red;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
