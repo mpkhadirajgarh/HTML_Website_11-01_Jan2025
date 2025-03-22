@@ -28,4 +28,3 @@ const e = 50 ;
 
 console.log(d + e);
 
-
