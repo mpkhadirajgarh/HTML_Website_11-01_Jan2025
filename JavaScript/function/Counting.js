@@ -10,4 +10,4 @@ function PrintNumber(number) {
 
 }
 
-PrintNumber(99);
+PrintNumber(1000);
