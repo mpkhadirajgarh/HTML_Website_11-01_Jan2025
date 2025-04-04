@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick Event</title>
+</head>
+<body>
+    <h1>Counting of 01 to 20</h1>
+
+    <button onclick="counting()">Counting</button>
+
+    <button onclick="EvenNum()">Even Number</button>
+    <button onclick="OddNum()">Odd Number</button>
+
+    <button onclick="Clearall()">Clear(CLS)</button>
+
+    <p id="count"></p>
+
+    <script>
+
+// print no 01 to 10 
+function counting(){
+
+    document.body.style.backgroundColor = 'yellow';
+    document.getElementById('count').style.color = 'blue';
+
+        for(let i= 1 ; i<=10 ; i++) {
+
+document.getElementById('count').innerHTML += "Number:" + i + "<br>" 
+        }
+
+    }
+
+
+// Print Event no 02 to 20.
+
+    function EvenNum(){
+
+        document.body.style.backgroundColor = 'orange'
+        document.getElementById('count').style.color = 'blue'
+
+for(let i = 2 ; i<=20; i = (i+2)){
+
+    document.getElementById('count').innerHTML += "Number:" + i + "<br>" 
+}
+
+    }
+
+    // Print Odd Number 01 to 19 
+
+    function OddNum(){
+
+        document.body.style.backgroundColor = 'lightgreen';
+        document.getElementById('count').style.color = 'red'
+
+for(let i = 1 ; i<=30; i = (i+2)){
+
+    document.getElementById('count').innerHTML += "Number:" + i + "<br>" 
+}
+
+    }
+
+    // Clear logic 
+
+
+    function Clearall(){
+
+    document.getElementById('count').innerHTML = "" 
+
+    document.body.style.backgroundColor = 'pink'
+
+    }
+
+    </script>
+    
+</body>
+</html>
